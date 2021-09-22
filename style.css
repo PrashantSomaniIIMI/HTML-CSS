@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{font-family: 'Montserrat', sans-serif;}
 :root {--primary-color: #7C3AED;}
+hr {
+    margin: 2rem 0rem;
+}
 /**container**/
 
 .container{padding-left: 1rem;
@@ -21,3 +24,7 @@ padding: 0.5rem 1rem;
         border-radius: 0.5rem;
         border: 1px solid var(--primary-color);
     }
+/**Lists**/
+.list_non-bullet{list-style: none;} 
+.list_in-line{display: inline;padding: 0rem 0.5rem
+}
